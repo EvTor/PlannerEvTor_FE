@@ -1,0 +1,9 @@
+{
+  "author": "Evgeniy Toropitsyn",
+  "short_name": "PlannerEvTor",
+  "name": "PlannerEvTor",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
