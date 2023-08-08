@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser')
 const app = express()
 app.use(cors({
     credentials:true,
-    origin: "https://plannerevtor-be.onrender.com"
+    origin: process.env.CLIENT_URL
 }));
 app.use(express.static(__dirname))
 app.use(express.static(path.resolve(__dirname, 'build')))
